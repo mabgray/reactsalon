@@ -7,27 +7,22 @@ class About extends Component {
             campsites: [
                 {
                     id: 0,
-                    name: 'Leslie Jones',
-                    image: 'assets/images/react-lake.jpg',
+                    name: "Leslie Jones",
+                    image: "https://www.emmys.com/sites/default/files/styles/bio_pics_detail/public/Leslie-Jones-bio-450x600.jpg?itok=vgYICO6r"
                     style: " upscale and trendy."
+                    
                 },
                 {
                   id: 1,
-                  name: 'Kate McKinnon',
-                  image: 'assets/images/chrome-river.jpg'
-                  style: "Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River."
+                  name: "Kate McKinnon",
+                  image: "https://www.interviewmagazine.com/wp-content/uploads/2019/10/190731_SCHORR_INTERVIEW_Shot_01_023_01.jpg",
+                  style: "formal and professional"
                 },
                 {
                     id: 2,
-                    name: 'Celie Strong',
-                    image: 'assets/images/breadcrumb-trail.jpg',
+                    name: "Celie Strong",
+                    image: "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JWQRA3HKKMI6XF5AUCORAGA6GY.jpg&w=210"
                     style: "casual"
-                },
-                {
-                    id: 3,
-                    name: 'Redux Woods Campground',
-                    image: 'assets/images/redux-woods.jpg',
-                    style: "classic and timeless."
                 }
             ],
 
