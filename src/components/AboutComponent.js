@@ -30,11 +30,11 @@ class About extends Component {
     }
 
     render() {
-        return (
-            render() {
+       
+            
                 const staffProfiles = this.state.profiles.map(profile => {
                     return (
-                        <div className="col">
+                        <div className="col" key={profile.id}>
                             <img src={profile.image} alt={profile.name} />
                             <h2>{profile.name}</h2>
                             <p>{profile.style}</p>
@@ -49,8 +49,8 @@ class About extends Component {
                         </div>
                     </div>
                 );
-            }
-        );
+            
+        
     }
 }
 
